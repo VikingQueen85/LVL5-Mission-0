@@ -1,0 +1,30 @@
+{
+  "short_name": "ReactApp",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "SpiritualHealing.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "Chakras.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "Nature.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "SoundHealing.jpg",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "HolisticMedicine.jpg",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
