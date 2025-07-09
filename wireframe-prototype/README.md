@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed as part of Mission 0, where the goal was to create a quick page template for the Marketing Association New Zealand's new digital news homepage.
 
-## Available Scripts
+Client: Marketing Association New Zealand
+Project Brief: To build a single-page, mobile-responsive application that serves as a template for a digital news homepage. The design was guided by provided wireframes, allowing for custom color palettes and images. The search functionality was explicitly noted as not requiring implementation.
 
-In the project directory, you can run:
+Purpose: This application serves as a prototype for a modern, responsive digital news interface, focusing on layout and user experience across different device sizes.
 
-### `npm start`
+Getting Started with Create React App
+This project was bootstrapped with Create React App, providing a robust environment for building single-page React applications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Available Scripts
+In the project directory, after installing dependencies, you can run:
 
-The page will reload when you make changes.\
+npm start
+Runs the app in the development mode.
+
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
+
 You may also see any lint errors in the console.
 
-### `npm test`
+npm test
+Launches the test runner in the interactive watch mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm run build
+Builds the app for production to the build folder.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Project Details
+Technologies Used
+React.js: The core JavaScript library for building the user interface.
 
-### `npm run eject`
+Create React App: The scaffolding tool used to set up the React project.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bootstrap: Utilized for responsive design and styling components, providing a mobile-first approach.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Custom CSS: For specific styling and layout adjustments beyond Bootstrap defaults.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Responsive Design
+The webpage is designed to be fully mobile responsive, adapting its layout to provide an optimal viewing experience across various screen sizes (desktop, tablet, and mobile). This was achieved using:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Flexbox: For creating flexible and adaptable layouts for sections like the header, image grid, and search area.
 
-## Learn More
+CSS Media Queries: To apply specific styling rules at different breakpoints, ensuring content stacks vertically on smaller screens (e.g., the image grid) and adjusts typography and spacing for readability.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The responsive implementation follows the guidance provided by the wireframes:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desktop Layout:
 
-### Code Splitting
+Mobile Layout:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Project Structure
+public/: Contains static assets like index.html and images (e.g., WaterHealing.png, desktop.png, mobile.png).
 
-### Analyzing the Bundle Size
+src/: Contains the main React application code.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+App.jsx: The main React component that structures the overall page layout, importing other functional components.
 
-### Making a Progressive Web App
+index.css: Contains the global CSS styles, including responsive media queries.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+components/: Houses reusable React components such as Header, SearchSection, ImagesSection, and Footer.
 
-### Advanced Configuration
+How to Run Locally
+Navigate to the project directory
+Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
 
-### Deployment
+The application should open in your default web browser at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Customizations
+Color Palette: A custom color palette has been applied, deviating from the wireframe's grayscale to provide a more vibrant and distinct visual identity.
 
-### `npm run build` fails to minify
+Images: Custom images have been integrated into the design, including a background image for the top section and placeholder images for the image gallery, aligning with the project's theme.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Search Functionality: As per the brief, the search functionality is present in the UI but is not implemented with backend logic.
+
+Author
+Tessa - VikingQueen85
